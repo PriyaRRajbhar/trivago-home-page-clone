@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    /*
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; 
+    */
+}
+
+.cards-container{
+    /* border: 1px solid blue; */
+    height: 80vh;
+    margin: 0em 16em;
+}
+
+.cards{
+    border: 1px solid black;
+}
+
+.three-places{
+    display: flex;
+    /* gap: 20px; */
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    /* border: 1px solid blue;  */
+}
+
+.three-places div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red;  */
+    height: 1.7rem;
+    width: 3rem;
+    border-bottom: 1px solid gray;
+    font-weight: 600;
+}
+
+.three-places a{
+    height: 1.7rem;
+    width:3rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#place1{
+    border-bottom: 2.5px solid black;
+}
+
+
+#place1 a{
+    color: black;
+}
+
+#place1:hover{
+    background-color: rgb(213, 212, 212);   
+}
+
+.place2-3 a:hover{
+    background-color: rgb(213, 212, 212);
+    color: black;
+    border-bottom: 1px solid gray;
+}
+
+.three-places a{
+    text-decoration: none;
+    color: gray;
+}
+
+.main-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.card1,.card2,.card3{
+    /* border: 1px solid green; */
+    height: 57vh;
+    width: 20vw;
+    border-radius: 0.5rem;
+    box-shadow: 1px 3px 8px rgba(36, 36, 36, 0.47);
+}
+
+.card1 img{
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    height: 250px;
+}
+
+#cards-matter{
+    /* border: 1px solid violet; */
+    height: 20vh;
+    margin: 0rem 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.card1 h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.three-elements{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.three-elements,pre,label{
+    font-size: 0.8rem;
+}
+
+.pool{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+.pool label{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+#cards-matter button{
+    height: 2.5rem;
+    width: 17.9rem;
+    margin-top: 1.2rem;
+    background-color: #0079C2;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#cards-matter button:hover{
+    background-color: #025f98;
+}
+
+.link{
+    margin-top: 2rem;
+    /* border: 1px solid black; */
+    text-align: right;
+}
+
+.link a{
+    text-decoration: none;
+    color: #00578b;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+

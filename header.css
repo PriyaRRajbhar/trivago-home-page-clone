@@ -1,0 +1,268 @@
+ /* Global Reset */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    /*
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; 
+    */
+}
+
+header{
+    background-color: #F7F7F6;
+    /* border: 1px solid black; */
+    height: 24rem;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 55px;
+    border-bottom: 1px solid #b1aeae;
+}
+
+/* Logo styling */
+.navbar .logo img {
+    width: 30rem;
+    margin-left: 65px;
+}
+
+/* Links and Icons container */
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 20%;
+}
+
+/* Style each link */
+.navbar .nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Icon styles */
+.navbar .nav-links i {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #505050;
+}
+
+#menu{
+    width: auto;
+    height: 55px;
+    padding: 17px 17px;
+}
+
+.menu{
+    border: 1px dotted #bab9b9;
+}
+
+/* Hover effect */
+.navbar .nav-links a:hover {
+    background-color: #bfbcbc;
+    height: 55px;
+    width: auto;
+}
+
+/*..................text & bar section styling..........*/
+.header-text{
+    margin: 2.5em 16em;
+}
+
+.header-text > h4{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.header-text > label{
+    font-size: 1rem;
+    color: gray;
+}
+
+/*................shadow bar styling..................*/
+
+.main_container{
+    /* border: 1px solid green; */
+    height: 60px;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin: 3em 16em;
+    box-shadow: 2px 2px 10px 15px rgb(228, 227, 227);
+}
+
+
+
+.container1{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 270px;
+    gap: 1px;
+    border-right:1px solid rgb(177, 176, 176);
+}
+
+#search_icon{
+    /* border: 1px solid rgb(94, 243, 94); */
+    padding: 1.7rem 1.2rem;
+}
+
+.place{
+    height: 60px;
+    /*border: 1px solid red;*/
+    width: 11rem;
+    padding-top: 0.6rem;
+}
+
+.place > label{
+    font-size: 0.8rem;
+    color: gray;
+    line-height: 1em;
+}
+
+.place > h6{
+    font-size: 1rem;
+}
+
+#cancel_icon{
+    /*border: 1px solid rgb(94, 243, 94);*/
+    padding: 1.3rem 1.1rem;
+}
+
+/*................ hover effect to search box.................*/
+.container1:hover{
+    background-color: #dcd9d9;
+    border-radius: 1rem;
+    height: 54px;
+    border: none;
+    margin: 0rem 0.1rem;
+    width: 267px;
+}
+
+/*...........date side styling............ */
+
+.container2{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 350px;
+    border-right:1px solid rgb(177, 176, 176);
+}
+
+#calendar-icon{
+    /* border: 1px solid red; */
+    padding: 1.7rem 1.2rem;
+}
+
+.divider {
+        width: 2px;
+        height: 38px;
+        background-color: #bbbbbb;
+        margin: 0 25px;
+}
+
+.date-item{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+
+.container2:hover{
+    background-color: #dcd9d9;
+    border-radius: 8px;
+    height: 54px;
+    border: none;
+    margin: 0rem 0.1rem;
+    width: 345px;
+}
+    
+
+/*.......guest & room side styling..........*/
+.container3{
+    display: flex;
+    align-items: center;
+    /*border: 1px solid red;*/
+    height: 60px;
+    width: 393px;
+}
+
+.icon-user{
+    display: flex;
+    align-items: center;
+}
+
+#user-icon{
+    padding: 1.7rem 1.2rem;
+    /*border: 1px solid red;*/
+}
+
+.text3{
+    width: 12.5rem;
+}
+
+.text3 > label{
+    font-size: 0.8rem;
+    color: gray;
+    line-height: 1em;
+}
+
+.text3 > h6{
+    font-size: 1rem;
+}
+
+.icon-user > button{
+    background-color: #026fad;
+    color: white;
+    height: 40px;
+    width: 7rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: #015e93;
+}
+
+.container3:hover{
+    background-color: #dcd9d9;
+    border-radius: 8px;
+    height: 54px;
+    border: none;
+    margin-left: 4px;
+    margin-right: 50px;
+    width: 260px;
+}
+
+
+/*..................Header bottom section styling..........*/
+
+.hotels_logo{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    /* border: 1px solid red; */
+    margin: 1.5em 16em;
+    
+}
+
+.hotels_logo, p{
+    font-size: 1rem;
+    color: grey;
+}
+

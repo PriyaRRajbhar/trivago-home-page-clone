@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    /*
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; 
+    */
+}
+
+.graphics-images{
+    /* border:1px solid black; */
+    height: 50vh;
+    margin: 0em 16em;
+    margin-top: 4rem;
+}
+
+.graphics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.graphic1{
+    height: 
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.graphic1 img{
+    height: 150px;
+}
+
+.graphics-text{
+    margin-top: 1.5rem;
+    text-align: center;
+    /* border: 1px solid green; */
+}
+
+.graphics-text h3{
+    font-size: 1.3rem;
+}
+
+.graphics-text p{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+}

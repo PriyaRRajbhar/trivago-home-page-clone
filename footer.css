@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    /*
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; 
+    */
+}
+
+footer{
+    background-color:black;
+    height: 65vh;
+}
+
+.footer-container{
+    border:1px solid red;
+    height: 40vh;
+
+    margin-left:16em;
+    margin-right:16em;
+}
+
+.brand-socialmedia{
+    border: 1px solid red;
+}
+
+.image img{
+    height: 30vh;
+    width: auto;
+}

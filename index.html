@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivago.in - Compare hotel price worldwide</title>
+    <!-- Link to title logo-->
+    <link rel="icon" href="assets/Trivago/LOGO (2).png" type="image/xl-icon">
+    <!-- Link to stylesheet -->
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="Cards.css">
+    <link rel="stylesheet" href="popularsearches.css">
+    <link rel="stylesheet" href="graphics.css">
+    <link rel="stylesheet" href="download.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="footer.css">
+    <!-- Link to Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link to google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+       
+    </style>
+</head>
+<body>
+<header>
+<!-- Navbar structure -->
+<nav class="navbar">
+    <!-- Logo Section -->
+    <div class="logo">
+        <img src="assets/Trivago/Trivago name.png" alt="Logo">
+    </div>
+
+    <!-- Links and Icons -->
+    <div class="nav-links">
+        <a href="#" id="menu"><i class="fa-regular fa-heart"></i>Favorites</a>
+        <a href="#" id="menu"><i class="fas fa-globe"></i> EN.Rs</a>
+        <a href="#" id="menu"><i class="fas fa-user"></i> Log in</a>
+        <a href="#" id="menu" class="menu"><i class="fas fa-bars"></i> Menu</a>
+    </div>
+</nav>
+
+<!--header second part-->
+<div class="header-text">
+    <h4>We compare hotel prices from 100s of sites</h4>
+    <label>We'll do the searching. You do the saving.</label>
+</div>
+
+<!--search side part-->
+<div class="main_container">
+<div class="search">
+    <div class="container1">
+    <i class="fa-solid fa-magnifying-glass fa-lg" id="search_icon" style="color: #000000;"></i>
+    <div class="place">
+    <label>Destination</label>
+    <h6>Delhi</h6>
+    </div>
+    <i class="fa-solid fa-xmark" id="cancel_icon" style="color: #000000;"></i>
+</div>
+</div>
+
+<!--Date side part-->
+<div class="date-picker">
+    <div class="container2">
+        <i class="fas fa-calendar-alt fa-lg" id="calendar-icon"></i>
+    <div class="date-item">
+        <div>
+            <label>Check in</label>
+            <input type="date">
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="date-item">
+        <div>
+            <label>Check out</label>
+            <input type="date">
+        </div>
+    </div>
+</div>
+</div>
+
+<!--guests & rooms side part-->
+<div class="guest-rooms">
+    <div class="container3">
+        <i class="fa-solid fa-user-large fa-lg" id="user-icon" class="user-text" style="color: #000000;"></i>
+        <div class="icon-user">
+            <div class="text3" class="user-text">
+                <label>Guests and rooms</label>
+                <h6>1 Guest, 1 Room</h6>
+            </div>
+            <button>Search</button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!--Hotels logo third section-->
+<div class="hotels_logo">
+    <div><img src="assets/Hotels logo/agoda.png" width="60px"></div>
+    <div><img src="assets/Hotels logo/hotelscom.png" width="60px"></div>
+    <div><img src="assets/Hotels logo/bookingcom.png" width="60px"></div>
+    <div><img src="assets/Hotels logo/makemytrip.png" width="60px"></div>
+    <div><img src="assets/Hotels logo/accor live limitless.png" width="60px"></div>
+    <div><img src="assets/Hotels logo/tripcom.png" width="60px"></div>
+    <div><img src="assets/Hotels logo/OYO.png" width="60px"></div>
+    <div><p>+100s more</p></div>
+</div>
+
+</header>
+
+<!------------Main page all elements---------------------------------->
+<main>
+    <div class="content">
+
+
+        <div class="heroSection-image">
+            <div class="overlay">
+            <h2>Discover the best time to book your next stay</h2>
+            </div>
+        <img src="/assets/main images/mumbai.jpeg "alt="Mumbai Secenary Image">
+        
+    </div>
+
+        <div class="infopage">
+        <div class="Jagah">
+        <button id="Mumbai">Mumbai</button>
+        &nbsp;
+        <button>Jaipur</button>
+        &nbsp;
+        <button>Delhi</button>
+        &nbsp;
+        <button>Udaipur</button>
+        &nbsp;
+        <button>Bengaluru</button>
+        &nbsp;
+        <button>Lonavala</button>
+        &nbsp;
+        <button>Chennai</button>
+        &nbsp;
+        <button>Hyderabad</button>
+        &nbsp;&nbsp;
+        <button id="arrow-icon">></button>
+        
+            <br>
+        <label>
+            Prices are based on the average price range for 3-star hotels per night.
+        </label>
+    </div>
+
+        <!--All tab left side elements-->
+        <div class="main-tabs">
+        <div class="tabs_left">
+        <div class="tab" id="tab-first">
+            <div class="tab1">
+            <div>
+            <label>September</label>
+            </div>
+
+            <div>
+            <span>Rs.2,465 - Rs.9,085</span>
+            <span>></span>
+            </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            <div class="tab1">
+            <div>
+            <label>October</label>
+            </div>
+            
+            <div>
+            <span>Rs.2,550 - Rs.9,995</span>
+            <span>></span>
+            </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            <div class="tab1">
+                <div>
+                <label>November</label>
+                </div>
+                
+                <div>
+                <span>Rs.2,675 - Rs.10,370</span>
+                <span>></span>
+                </div>
+                </div>
+        </div>
+
+        <div class="tab">
+            <div class="tab1">
+                <div>
+                <label>December</label>
+                </div>
+                
+                <div>
+                <span>Rs.2,825 - Rs.10,655</span>
+                <span>></span>
+                </div>
+                </div>
+        </div>
+
+        <div class="tab">
+            <div class="tab1">
+                <div>
+                <label>January</label>
+                </div>
+                
+                <div>
+                <span>Rs.2,890 - Rs.10,630</span>
+                <span>></span>
+                </div>
+                </div>
+        </div>
+
+        <div class="tab">
+            <div class="tab1">
+                <div>
+                <label>February</label>
+                </div>
+                
+                <div>
+                <span>Rs.3,000 - Rs.10,925</span>
+                <span>></span>
+                </div>
+                </div>
+        </div>
+        </div>
+
+        <!--All tab right side elements-->
+
+        <div class="tabs_right">
+            <div class="tab">
+                <div class="tab1">
+                    <div>
+                    <label>March</label>
+                    </div>
+                    
+                    <div>
+                    <span>Rs.2,690 - Rs.10,600</span>
+                    <span>></span>
+                    </div>
+                    </div>
+            </div>
+    
+            <div class="tab">
+                <div class="tab1">
+                    <div>
+                    <label>April</label>
+                    </div>
+                    
+                    <div>
+                    <span>Rs.2,560 - Rs.10,675</span>
+                    <span>></span>
+                    </div>
+                    </div>
+            </div>
+    
+            <div class="tab">
+                <div class="tab1">
+                    <div>
+                    <label>May</label>
+                    </div>
+                    
+                    <div>
+                    <span>Rs.2,625 - Rs.10,670</span>
+                    <span>></span>
+                    </div>
+                    </div>
+            </div>
+    
+            <div class="tab">
+                <div class="tab1">
+                    <div>
+                    <label>June</label>
+                    </div>
+                    
+                    <div>
+                    <span>Rs.2,600 - Rs.10,670</span>
+                    <span>></span>
+                    </div>
+                    </div>
+            </div>
+    
+            <div class="tab">
+                <div class="tab1">
+                    <div>
+                    <label>July</label>
+                    </div>
+                    
+                    <div>
+                    <span>Rs.2,007 - Rs.9,100</span>
+                    <span>></span>
+                    </div>
+                    </div>
+            </div>
+    
+            <div class="tab">
+                <div class="tab1">
+                    <div>
+                    <label>August</label>
+                    </div>
+                    
+                    <div>
+                    <span>Rs.2,985 - Rs.12,470</span>
+                    <span>></span>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</main>
+
+<!--..............top rated hotels Card..........................-->
+<div class="cards-container">
+    <div>
+        <div>
+            <h2>Take a dip at these top-rated hotels</h2>
+        </div>
+        <div class="three-places">
+            <div id="place1">
+            <a href="#html">Spain</a>
+            </div>
+            <div class="place2-3">
+                <a href="#html">Italy</a>
+            </div>
+            <div class="place2-3">
+                    <a href="#html">Turkey</a>
+            </div>
+        </div>
+        <div class="main-cards">
+            <div class="card1">
+                <img src="assets/Top rated hotels/spain1.avif" width="100%">
+                <div id="cards-matter"> 
+                <h2>Alma Barcelona GL</h2>
+
+                <div class="three-elements">
+                    <pre><b>9.5 - Excellent</b> &nbsp; (6930)</pre>
+                    <div>
+                        <i class="fa-solid fa-location-dot fa-2sm" style="color: #050505;"></i>
+                        <label>Barcelona</label>
+                    </div>
+                </div>
+
+                <div class="pool">
+                    <div>
+                    <i class="fa-solid fa-water-ladder fa-lg" style="color: #3684ea;"></i>
+                    <label>Pool</label>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-spa fa-lg" style="color: #3684ea;"></i>
+                        <label>Spa</label>
+                    </div>
+                </div>
+                    <button>Check prices</button>
+                </div>
+            </div>
+
+            <div class="card1">
+                <img src="assets/Top rated hotels/spain2.avif" width="100%">
+                <div id="cards-matter"> 
+                <h2>Alma Barcelona GL</h2>
+
+                <div class="three-elements">
+                    <pre><b>9.5 - Excellent</b> &nbsp; (6930)</pre>
+                    <div>
+                        <i class="fa-solid fa-location-dot fa-2sm" style="color: #050505;"></i>
+                        <label>Barcelona</label>
+                    </div>
+                </div>
+
+                <div class="pool">
+                    <div>
+                    <i class="fa-solid fa-water-ladder fa-lg" style="color: #3684ea;"></i>
+                    <label>Pool</label>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-spa fa-lg" style="color: #3684ea;"></i>
+                        <label>Spa</label>
+                    </div>
+                </div>
+                    <button>Check prices</button>
+                </div>
+            </div>
+
+            <div class="card1">
+                <img src="assets/Top rated hotels/spain3.avif" width="100%">
+                <div id="cards-matter"> 
+                <h2>Alma Barcelona GL</h2>
+
+                <div class="three-elements">
+                    <pre><b>9.5 - Excellent</b> &nbsp; (6930)</pre>
+                    <div>
+                        <i class="fa-solid fa-location-dot fa-2sm" style="color: #050505;"></i>
+                        <label>Barcelona</label>
+                    </div>
+                </div>
+
+                <div class="pool">
+                    <div>
+                    <i class="fa-solid fa-water-ladder fa-lg" style="color: #3684ea;"></i>
+                    <label>Pool</label>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-spa fa-lg" style="color: #3684ea;"></i>
+                        <label>Spa</label>
+                    </div>
+                </div>
+                    <button>Check prices</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="link">
+    <a href="#href">Explore more stays &nbsp; <i class="fa-solid fa-arrow-right fa-lg" style="color: #00578b;"></i></a>
+    </div>
+</div>
+
+
+<!--.............. Popular searches ...................-->
+<div class="popular-searches">
+    <div class="main-searches">
+        <div class="heading-links">
+            <div>
+                <h2>Popular searches</h2>
+            </div>
+            <div class="Cities-destinations">
+                <div id="cities">
+                <a href="#html">Cities</a>
+                </div>
+                <div class="destinations">
+                    <a href="#html">Destinations</a>
+                </div>
+            </div>
+
+        <div class="main-searches-cards">
+            <div class="searches-card1">
+                <img src="assets/Popular Searches/cities1.avif" width="100%">
+                <div class="card-text">
+                <p>Mumbai</p>
+                <p style="color:#0079C2;">5,538 <span style="color:black;">Hotels</span></p>
+                <p>Avg. <span style="color:#0079C2;">Rs.3,980</span></p>
+                </div>
+            </div>
+
+            <div class="searches-card1">
+                <img src="assets/Popular Searches/cities2.avif" width="100%">
+                <div class="card-text">
+                <p>Jaipur</p>
+                <p style="color:#0079C2;">4,887 <span style="color:black;">Hotels</span></p>
+                <p>Avg. <span style="color:#0079C2;">Rs.3,528</span></p>
+                </div>
+            </div>
+
+            <div class="searches-card1">
+                <img src="assets/Popular Searches/cities3.avif" width="100%">
+                <div class="card-text">
+                <p>Delhi</p>
+                <p style="color:#0079C2;">12,463 <span style="color:black;">Hotels</span></p>
+                <p>Avg. <span style="color:#0079C2;">Rs.3,062</span></p>
+                </div>
+            </div>
+
+            <div class="searches-card1">
+                <img src="assets/Popular Searches/cities4.avif" width="100%">
+                <div class="card-text">
+                <p>Bengaluru</p>
+                <p style="color:#0079C2;">7,890 <span style="color:black;">Hotels</span></p>
+                <p>Avg. <span style="color:#0079C2;">Rs.3,286</span></p>
+                </div>
+            </div>
+
+        </div>
+
+
+            
+        </div>
+    </div>
+</div>
+
+<!--..............graphics images elements...................-->
+<div class="graphics-images">
+<div class="graphics">
+    <div class="graphic1">
+        <img src="assets/Cartoon Images/SearchDesktop.png" height="100%">
+        <div class="graphics-text">
+            <h3>Search simply</h3>
+            <p>Search through 5 million <br>
+               hotels in just a few seconds.
+            </p>
+        </div>
+    </div>
+
+    <div class="graphic1">
+        <img src="assets/Cartoon Images/CompareDesktop.png" height="100%">
+        <div class="graphics-text">
+            <h3>Compare confidently</h3>
+            <p>Compare hotel prices from <br>
+               100s of sites at once.
+            </p>
+        </div>
+    </div>
+
+    <div class="graphic1">
+        <img src="assets/Cartoon Images/SaveDesktop.png" height="100%">
+        <div class="graphics-text">
+            <h3>Save big</h3>
+            <p>Discover a great deal to <br>
+               book on our partner sites.
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--.............Download trivago link elements...................-->
+<div class="Download">
+    <div class="main-frame">
+        <div class="app-text">
+        <h2>Download the trivago app</h2>
+        <h4>Easily compare hotel prices for savings on the go.</h4>
+        </div>
+
+        <div class="images">
+        <div class="playstore">
+            <div>
+            <a href="https://play.google.com/store/apps/details?id=com.trivago&referrer=af_tranid%3Dtknu_0KerSQo8OOlRSA5YA%26c%3DBRO_00_NOP_000_AND_MPAGE%26pid%3DMPAGE"><img src="assets/google-play.webp"></a>
+            </div>
+            <div>
+            <a href="https://apps.apple.com/us/app/trivago-compare-hotel-prices/id376888389?mt=8"><img src="assets/apple.webp"></a>
+            </div>
+        </div>
+
+        <div class="qr-code">
+            <img src="assets/QR CODE.png">
+        </div>
+        </div>
+    </div>
+</div>
+
+<!--.............searches elements...................-->
+<div class="search-container">
+        <div class="container">
+            <div id="search-tab">
+                <h2>More popular searches</h2>
+                <div class="text">
+                    <div class="searches-text">
+                    <div class="text-left">
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Dubai</p>
+                        <p class="item">Hotel in Mumbai</p>
+                        <p class="item">Hotel in Telangana</p>
+                        <p class="item">Hotel in Jharkhand</p>
+                        <p class="item">Hotel in Delhi</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Dubai</p>
+                        <p class="item">Hotel in Mumbai</p>
+                        <p class="item">Hotel in Telangana</p>
+                        <p class="item">Hotel in Jharkhand</p>
+                        <p class="item">Hotel in Delhi</p>
+                    </div>
+
+                    <div class="text-right">
+                        <p class="item">Hotel in Varanasi</p>
+                        <p class="item">Hotel in Chennnai</p>
+                        <p class="item">Hotel in Puri</p>
+                        <p class="item">Hotel in Agra</p>
+                        <p class="item">Hotel in tirupura</p>
+                        <p class="item">Hotel in Amravati</p>
+                        <p class="item">Hotel in Bihar</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Dubai</p>
+                        <p class="item">Hotel in Mumbai</p>
+                        <p class="item">Hotel in Telangana</p>
+                        <p class="item">Hotel in Jharkhand</p>
+                        <p class="item">Hotel in Delhi</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                        <p class="item">Hotel in Hyderabad</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div id="search-tab">
+                <h2>trivago international sites</h2>
+                <div class="text">
+                    <div class="searches-text">
+                        <div class="text-left">
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Dubai</p>
+                            <p class="item">Hotel in Mumbai</p>
+                            <p class="item">Hotel in Telangana</p>
+                            <p class="item">Hotel in Jharkhand</p>
+                            <p class="item">Hotel in Delhi</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Dubai</p>
+                            <p class="item">Hotel in Mumbai</p>
+                            <p class="item">Hotel in Telangana</p>
+                            <p class="item">Hotel in Jharkhand</p>
+                            <p class="item">Hotel in Delhi</p>
+                        </div>
+    
+                        <div class="text-right">
+                            <p class="item">Hotel in Varanasi</p>
+                            <p class="item">Hotel in Chennnai</p>
+                            <p class="item">Hotel in Puri</p>
+                            <p class="item">Hotel in Agra</p>
+                            <p class="item">Hotel in tirupura</p>
+                            <p class="item">Hotel in Amravati</p>
+                            <p class="item">Hotel in Bihar</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Dubai</p>
+                            <p class="item">Hotel in Mumbai</p>
+                            <p class="item">Hotel in Telangana</p>
+                            <p class="item">Hotel in Jharkhand</p>
+                            <p class="item">Hotel in Delhi</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                            <p class="item">Hotel in Hyderabad</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+</div>
+
+<!--.............footer elements...................-->
+<footer>
+    <div class="footer-container">
+        <div class="brand-socialmedia">
+            <div class="image">
+                <img src="assets/Trivago/Trivago white logo.png">
+            </div>
+
+            <div>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-square-x-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+            </div>
+        </div>
+
+        <div class="">
+            <div>
+                <div>
+
+                </div>
+
+                <div>
+
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

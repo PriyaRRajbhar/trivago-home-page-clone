@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    /*
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; 
+    */
+}
+
+.Download{
+    /* border: 1px solid blue;  */
+    margin: 0em 16em;
+    border-radius: 4px;
+    height: 40vh;
+    background-color: #E5F5FF;
+    border-radius: 8px;
+    padding-top: 0.5rem;
+}
+
+
+.app-text{
+    /* border: 1px solid red; */
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 30rem;
+}
+
+.app-text h2{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.app-text h4{
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    /* border: 1px solid pink; */
+    width: 25vw;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.playstore{
+    /* border: 1px solid green; */
+    text-align: center;
+}
+
+.playstore img{
+    height: 10vh;
+    width: auto;
+}
+
+
+.qr-code img{
+    height: 20vh;
+    width: auto;
+}
