@@ -12,22 +12,9 @@
 
 footer{
     background-color:black;
-    height: 65vh;
+    height: 20vh;
 }
 
-.footer-container{
-    border:1px solid red;
-    height: 40vh;
 
-    margin-left:16em;
-    margin-right:16em;
-}
 
-.brand-socialmedia{
-    border: 1px solid red;
-}
-
-.image img{
-    height: 30vh;
-    width: auto;
-}
+ 
